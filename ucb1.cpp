@@ -20,6 +20,7 @@ int main()
     std::cout << "Step " << (i+1) << ": Chose action " << index_of_biggest_upperbound << std::endl;
   }
   std::cout << "Final upperbounds: " << upper_bounds[0] << ", " << upper_bounds[1] << ", " << upper_bounds[2] << std::endl;
+  std::cout << "Played arms 1/2/3: " << rewards[0].size() << " times, " << rewards[1].size() << " times, " << rewards[2].size() << " times." <<  std::endl;
 }
 
 void init()
